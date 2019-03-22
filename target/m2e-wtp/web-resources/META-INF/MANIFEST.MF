@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Implementation-Title: employeesystemallocation
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: saikumargarimella
+Implementation-Vendor-Id: com.analog.employeesystemallocation
+Build-Jdk: 1.8.0_144
+Implementation-URL: http://projects.spring.io/spring-boot/employeesyst
+ emallocation/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+Main-Class: com.jajodia.inventorymanagement.app.App
+
