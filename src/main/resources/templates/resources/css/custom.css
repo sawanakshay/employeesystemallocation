@@ -1,0 +1,336 @@
+.aui-button-primary {
+  background-color: #42526E !important;
+}
+
+h5, h5 a {
+	color: #42526E;
+}
+
+#ui-datepicker-div {
+    display : none;
+}
+
+.hide {
+	display : none;
+}
+
+.display-inline {
+    display: inline;
+}
+
+
+.body-header-text {
+    margin-bottom: 15px;
+}
+
+.requiredSpan {
+    color: red;
+    margin-left: 3px;
+}
+
+.formButtonAlign {
+    text-align: right; 
+    padding-right: 20px;
+}
+
+.aui-form-notification-tooltip {
+    display: none !important;
+}
+
+.outer-loader {
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 99999;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+#loader {
+    background: rgb(45, 45, 45);
+    position: absolute;
+    top: 40%;
+    z-index: 11111111111111;
+    height: 50px;
+    width: 50px;
+    left: 47%;
+}
+
+/*.aui-nav-selected {
+    border-bottom: 5px solid white;
+}*/
+
+#homeNav .aui-nav-selected {
+  border-bottom: 5px solid #fff;
+}
+
+#settingsNav .aui-nav-selected {
+  border-bottom: 5px solid #003D61;
+}
+#workflowsNav .aui-nav-selected {
+    border-bottom: 5px solid #003D61;
+  }
+
+/*.aui-nav-selected > a::after {
+    background-color: #fff !important;
+}*/
+.image-container {
+    display: flex;
+    justify-content: center;
+  }
+
+.nav-text-color {
+    color: white !important;
+    font-weight: 500 !important;
+}
+
+/*.aui-iconfont-arrows-right {
+    color: white;
+}*/
+
+.rolesZindex{
+    z-index: 11111111111111;
+}
+
+.field-group-label {
+    min-width: 200px;
+}
+
+.ml-cms-auto {
+    padding-left: 70px;
+}
+
+.homeHeader {
+    text-align: center;
+    font-size: 18px;
+}
+
+.ml-cms-280 {
+  margin-left:280px;
+}
+
+.ml-cms-56 {
+  margin-left:56px;
+}
+
+/*  Home (Dashboard) CSS starts here*/
+.header {
+        margin: 20px auto 60px auto;
+    }
+    .demoContent {
+        width: 50rem; margin: 20px auto; padding: 35px; box-sizing: border-box;
+        background: #fff; border-radius: 4px; border: 1px solid #e6e6e6; box-shadow: 0 0 15px #ececec;
+    }
+    .openPopupButton {
+        width: 230px; display: block; margin: 0; padding: 2px 2px; outline: 0; box-sizing: border-box; cursor: pointer;
+        background: #6584c1; font-family: 'Segoe UI'; font-size: 16px; color: #fff; text-align: center; text-transform: uppercase;
+        border-radius: 4px; font-weight: bold; border: 0;
+    }
+    .openPopupButton2 {
+        width: 230px; display: block; margin: 0; padding: 2px 2px; outline: 0; box-sizing: border-box; cursor: pointer;
+        background: #6584c1; font-family: 'Segoe UI'; font-size: 16px; color: #fff; text-align: center; text-transform: uppercase;
+        border-radius: 4px; font-weight: bold; border: 0;
+    }
+    .openPopupButton3 {
+        width: 230px; display: block; margin: 0; padding: 2px 2px; outline: 0; box-sizing: border-box; cursor: pointer;
+        background: #6584c1; font-family: 'Segoe UI'; font-size: 16px; color: #fff; text-align: center; text-transform: uppercase;
+        border-radius: 4px; font-weight: bold; border: 0;
+    }
+    .openPopupButton4 {
+        width: 230px; display: block; margin: 0; padding: 2px 2px; outline: 0; box-sizing: border-box; cursor: pointer;
+        background: #6584c1; font-family: 'Segoe UI'; font-size: 16px; color: #fff; text-align: center; text-transform: uppercase;
+        border-radius: 4px; font-weight: bold; border: 0;
+    }
+    .userguide {
+        width: 700px; display: block; margin: 0; padding: 2px 2px; outline: 0; box-sizing: border-box; cursor: pointer;
+         font-family: 'Segoe UI'; font-size: 16px; color: #fff; text-align: center; text-transform: uppercase;
+         font-weight: bold; border: 2px solid #6584c1;
+    }
+    .btnWrap {
+        margin: 50px 15% 0 15%; padding-top: 20px; border-top: 1px solid #e2e2e2;
+        text-align: center;
+    }
+    .jPopup .content {
+        text-align: center;
+    }
+    .jPopup .content strong {
+        font-size: 30px;
+    }
+    .jPopup .content p {
+        font-size: 22px; line-height: 1.5;
+    }
+    .jPopup .content a {
+        color: #de6e40;
+    }
+    .jPopup .content em {
+        font-style: normal; color: #558eff;
+    }
+    @media screen and (max-width: 640px) {
+        .header {
+            margin: 50px auto 30px auto;
+        }
+        h1 {
+            font-size: 65px;
+        }
+        h2 {
+            font-size: 16px;
+        }
+        .demoContent {
+            width: auto; margin: 20px;
+        }
+        .btnWrap {
+            margin: 50px 20px 0 20px;
+        }
+        .jPopup .content p {
+            font-size: 11px;
+        }
+    }
+
+.jPopup {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 9999;
+  max-width: 100%;
+  padding: 50px 15px 15px;
+  box-sizing: border-box;
+}
+
+.jPopup:after {
+  content: '';
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 9998;
+  background: #fff;
+}
+
+.jPopup > .jCloseBtn {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  z-index: 9999;
+  outline: 0;
+  border: 0;
+  box-sizing: border-box;
+  cursor: pointer;
+  width: 5rem;
+  height: 5rem;
+  background: #f2f2f2;
+  border-radius: 50%;
+}
+
+.jPopup > .jCloseBtn > .graphicIcon {
+  width: 2rem;
+  height: 2rem;
+  position: relative;
+  margin: 0 auto;
+}
+
+.jPopup > .jCloseBtn > .graphicIcon:before, .jPopup > .jCloseBtn > .graphicIcon:after {
+  position: absolute;
+  left: 0.9rem;
+  content: '';
+  height: 2rem;
+  width: 0.3rem;
+  background-color: #adadad;
+  border-radius: 0.5rem;
+}
+
+.jPopup > .jCloseBtn > .graphicIcon:before {
+  -ms-transform: rotate(45deg);
+      transform: rotate(45deg);
+}
+
+.jPopup > .jCloseBtn > .graphicIcon:after {
+  -ms-transform: rotate(-45deg);
+      transform: rotate(-45deg);
+}
+
+.jPopup > .jCloseBtn:hover > .graphicIcon {
+  animation: rotate 250ms ease-in;
+}
+
+.jPopup > .jCloseBtn:active {
+  -ms-transform: scale(0.95);
+      transform: scale(0.95);
+}
+
+.jPopup > .content {
+  top: 50%;
+  left: 1.5rem;
+  right: 1.5rem;
+  position: absolute;
+  z-index: 9999;
+  -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+}
+
+@media screen and (min-width: 680px) {
+  .jPopup {
+    padding: 8rem 3rem 3rem;
+  }
+  .jPopup > .jCloseBtn:after {
+    content: '(esc)';
+    position: absolute;
+    top: 6.5rem;
+    left: 50%;
+    font-size: 1.1rem;
+    -ms-transform: translateX(-50%);
+        transform: translateX(-50%);
+    color: #adadad;
+    pointer-events: none;
+  }
+  .jPopup > .jCloseBtn > .graphicIcon {
+    width: 3rem;
+    height: 3rem;
+  }
+  .jPopup > .jCloseBtn > .graphicIcon:before, .jPopup > .jCloseBtn > .graphicIcon:after {
+    left: 1.4rem;
+    height: 3rem;
+  }
+  .jPopup > .content {
+    left: 3rem;
+    right: 3rem;
+  }
+}
+
+.jPopupOpen, .jPopupOpen body {
+  overflow: hidden;
+}
+
+.jPopupOpen .jPopup {
+  animation: slideIn 500ms cubic-bezier(.34,.34,.26,.99);
+}
+
+.jPopupClosed .jPopup {
+  animation: slideOut 250ms ease-in;
+}
+
+.badge-defaulty {
+    background-color: #003D61 ; 
+}
+.badge-info {
+    background-color: #5bc0de;
+}
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f4f5f7;
+    text-align: center;
+}
+
+.footer-home {
+    position:fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f4f5f7;
+    text-align: center;
+}

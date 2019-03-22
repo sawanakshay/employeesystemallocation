@@ -1,0 +1,119 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<title>Employee System Allocation List</title>
+
+        <link rel="stylesheet" href="resources/jquery-ui/jquery-ui.min.css"media="all">
+        <link rel="stylesheet" href="resources/lib/aui/css/aui.css" media="all">
+        <link rel="stylesheet" href="resources/lib/aui/css/aui-experimental.css" media="all">
+        <link rel="stylesheet" href="resources/css/lib/bootstrap.css">
+        <link rel="icon" type="image/x-icon" href="resources/images/favicon.ico">
+        <link rel="stylesheet" href="resources/jqueryui-editable/css/jqueryui-editable.css">
+        <link rel="stylesheet" href="resources/css/lib/jquery.dataTables.min.css">
+        <link rel="stylesheet" href="resources/css/lib/font-awesome.css">
+        <link rel="stylesheet" href="resources/css/custom.css">
+
+        <!-- JS -->
+        <script type="text/javascript" src="resources/js/lib/jquery-1.12.4.min.js"></script>
+        <script type="text/javascript" src="resources/jquery-ui/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="resources/lib/aui/js/aui.js"></script>
+        <script type="text/javascript" src="resources/lib/aui/js/aui-experimental.js"></script> 
+        <script type="text/javascript" src="resources/lib/aui/js/aui-soy.js"></script>
+        <script type="text/javascript" src="resources/js/lib/jquery.dataTables.min.js"></script>
+         <script type="text/javascript" src="resources/lib/buttons/js/dataTables.buttons.min.js"></script>
+        <script type="text/javascript" src="resources/lib/buttons/js/jszip.min.js"></script>
+        <script type="text/javascript" src="resources/lib/buttons/js/pdfmake.min.js"></script>
+        <script type="text/javascript" src="resources/lib/buttons/js/vfs_fonts.js"></script>
+        <script type="text/javascript" src="resources/lib/buttons/js/buttons.html5.min.js"></script> 
+        <script type="text/javascript" src="resources/lib/buttons/js/buttons.flash.min.js"></script>
+        <script type="text/javascript" src="resources/lib/buttons/js/buttons.print.min.js"></script>
+        <script type="text/javascript" src="resources/lib/buttons/js/buttons.colVis.min.js"></script>
+        <script type="text/javascript" src="resources/js/lib/spin.js"></script>
+
+        <style>
+            button.dt-button, div.dt-button, a.dt-button{
+                margin-left:10px;
+            }
+        </style>
+        
+	</head>
+	<body>
+
+        <div class="outer-loader" style="display: none;"><div id="loader"></div></div>
+
+		<div class="row col-xs-12 col-md-12 col-sm-12 col-lg-12" style="margin: 0px">
+			<div class="col-xs-2 col-md-2 col-sm-2 col-lg-2 col-auto mr-auto" style="padding: 0px">
+                <a class="navbar-brand" href="/">
+                    <!--  -->
+                </a>
+			</div>
+			<div class="col-xs-6 col-md-6 col-sm-6 col-lg-6 col-auto ml-auto mr-auto mt-auto mb-auto">
+				<b style="font-size: 35px;color:#003D61;">Employee System Allocation</b>
+			</div>
+			<div class="col-xs-1 col-md-1 col-sm-1 col-lg-1 col-auto ml-auto mt-auto mb-auto"></div>
+		</div>
+
+        <nav id="homeNav" class="aui-navgroup aui-navgroup-horizontal" style="background-color: #003D61">
+            <!-- <div class="aui-navgroup-inner">
+                <div class="aui-navgroup-primary">
+                    <ul id="navList" class="aui-nav ml-cms-280">
+                        <li><a class="nav-text-color" href="home.html">Home</a></li>
+                        <li id="MY_CONTRACTORS"><a class="nav-text-color aui-nav-selected" href="myvendors.html">My Vendors</a></li>
+                        <li id="MY_TICKETS"><a class="nav-text-color" href="mycustomers.html">My Customers</a></li>
+                        <li id="USER_GUIDE"><a class="nav-text-color" href="mystocks.html">My Stocks
+                        </a></li>
+                    </ul>
+                    <ul class="aui-nav ml-auto">
+                        <div class="ml-auto mt-auto mb-auto">
+                            <a class="pull-right" href="javascript:void(0)" onclick="common.logout();" method="POST" value="Logout"><i style="color:#fff">
+                                    <p style="margin-bottom: 0px; font-weight: 500;" id="logout">Logout</p>
+                                </i>
+                            </a>
+                        </div>
+                    </ul>
+                </div>
+            </div> -->
+        </nav>
+
+		<section id="content" role="main">
+
+            <div class="aui-page-panel">
+                <div class="aui-page-panel-inner">
+                    <section class="aui-page-panel-content">
+                        <div class="aui-page-panel">
+                            <div class="aui-page-panel-inner">
+                                <section class="aui-page-panel-content">
+                                    <!-- Page content goes here -->
+                                    <h5>Employee System Allocation List</h5>
+                                    
+                                    <div class="card-body mt-2" style="border-top: 1px solid #cccccc">
+                                        <br>                  
+                                        <div class="mt-2 col-xs-8 col-sm-8 col-md-8 col-lg-10 offset-xs-2 offset-sm-2 offset-md-2 offset-lg-1" id="employeeSystemAllocationContactDiv">
+                                                <table id="employeeSystemAllocationListTable" class="table table-bordered table-hover table-striped">
+                                                        <thead>
+                                                          <tr>
+                                                            <th>#</th>
+                                                            <th>Employee Name</th>
+                                                            <th>System</th>
+                                                            <th></th>
+                                                          </tr>
+                                                        </thead>
+                                                        <tbody id="employeeSystemAllocationListTableBody">
+                                                            
+                                                        </tbody>
+                                                </table>
+                                            </div>   
+                                    </div>
+                                </section>
+                            </div>
+                        </div><!-- </main> -->
+                    </section>
+                </div>
+            </div>
+        </section>
+
+	</body>
+    <script type="text/javascript" src="resources/js/common.js"></script>
+    <script type="text/javascript" src="resources/js/employeesystemallocation.js"></script>
+</html>
+
